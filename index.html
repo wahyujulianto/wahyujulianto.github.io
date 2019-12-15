@@ -1,0 +1,28 @@
+<html>
+  <head>
+    <title>Listku</title>
+    <link rel="stylesheet" href="style.css" type="text/css" media="screen" charset="utf-8">    
+  </head>
+  <body>
+    <div class="container">
+      <p>
+        <label for="new-task">Tambah item</label><input id="new-task" type="text"><button>Tambah</button>
+      </p>
+      
+      <h3>Belum Selesai :(</h3>
+      <ul id="incomplete-tasks">
+        <li><input type="checkbox"><label>Buat Dashboard</label><input type="text"><button class="edit">Edit</button><button class="delete">Hapus</button></li>
+        <li><input type="checkbox"><label>Buat Verif Email</label><input type="text"><button class="edit">Edit</button><button class="delete">Hapus</button></li>
+        
+      </ul>
+      
+      <h3>Selesai</h3>
+      <ul id="completed-tasks">
+        <li><input type="checkbox" checked><label>Login</label><input type="text"><button class="edit">Edit</button><button class="delete">Hapus</button></li>
+      </ul>
+    </div>
+
+    <script type="text/javascript" src="app.js"></script>
+
+  </body>
+</html>
